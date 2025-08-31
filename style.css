@@ -1,9 +1,73 @@
+
 *{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     font-family: monospace;
 }
 
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+p {
+    margin-left: 16px;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    padding: 30px;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color:rgb(145, 84, 202);
+}
+
+a:visited {
+    color: white;
+}
+
+.thebox {
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: rgb(214, 214, 214);
+    font-size: medium;
+    border-style: outset;
+}
+
+.blog-entry {
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: rgb(201, 201, 201);
+    text-align: left;
+    font-size: medium;
+    border-style: outset;
+}
+
+
+.entry {
+    font-size: large;
+    border-style: outset;
+    background-color: rgb(129, 129, 129);
+    color: black;
+    padding-left: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-indent: 2;
+}
+
+/*
+p {
+    size: 16mm;
+    text-align: center;
+    color: blue;
+}
+*/
 /*
 p {
     size: 16mm;
