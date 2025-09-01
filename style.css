@@ -14,26 +14,24 @@ p {
     color: rgb(0, 0, 0);
 }
 
-h1 {
-    padding: 30px;
+td {
+    border-style:outset;
 }
 
-a:link {
-    color: white;
+#horizontallist ul {
+    list-style: none;
 }
 
-a:hover {
-    color:rgb(145, 84, 202);
+#horizontallist li {
+    display: inline;
 }
 
-a:visited {
-    color: white;
-}
+
 
 .thebox {
     margin-left: 8%;
     margin-right: 8%;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(201, 201, 201);
     font-size: medium;
     border-style: outset;
 }
@@ -59,6 +57,18 @@ a:visited {
     margin-left: 8%;
     margin-right: 8%;
     text-indent: 2;
+}
+
+.entry a:link {
+    color: rgb(255, 255, 255);
+}
+
+.entry a:hover {
+    color:rgb(255, 255, 255);
+}
+
+.entry a:visited {
+    color: rgb(255, 255, 255);
 }
 
 /*
