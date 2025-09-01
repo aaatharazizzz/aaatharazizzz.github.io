@@ -61,6 +61,10 @@ td {
     text-indent: 2;
 }
 
+.entry * {
+    margin: 10px;
+}
+
 .entry a:link {
     color: rgb(255, 255, 255);
 }
