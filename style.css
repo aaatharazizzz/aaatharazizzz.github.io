@@ -1,7 +1,5 @@
 
 *{
-    margin: 10px;
-    padding: 0;
     font-family: monospace;
 }
 
@@ -37,6 +35,8 @@ td {
 }
 
 .blog-entry {
+    padding-left: 4%;
+    padding-right: 12%;
     margin-left: 8%;
     margin-right: 8%;
     background-color: rgb(201, 201, 201);
@@ -55,6 +55,8 @@ td {
     padding-top: 4px;
     padding-bottom: 4px;
     margin-left: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 8%;
     text-indent: 2;
 }
