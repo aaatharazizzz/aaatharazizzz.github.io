@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(91, 164, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size:larger;
+}
+
+.fullcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
