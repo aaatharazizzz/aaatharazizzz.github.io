@@ -1,0 +1,99 @@
+:root {
+  --primary: #FF9100;
+  --secondary: #6a28d4;
+  --bg: #252734;
+  --bgsecond: #333646;
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+}
+
+.header {
+    background-color: var(--bgsecond);
+    position: fixed;
+    height: 52px;
+    width: 100%;
+    padding-left: 32px;
+
+}
+.header-home {
+    color: var(--primary);
+    font-weight: 700;
+    
+    
+}
+
+.hero-content {
+    background-color: var(--bg);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+.hero-content h1 {
+    color: var(--primary);
+    font-size: 80px;
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    color: white;
+    font-size: 20px;
+}
+.courses-content {
+    background-color: #000000;
+}
+.courses-content-title {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 2rem;
+    color: white;
+
+}
+
+
+.course-box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.course-box {
+    background-color: var(--bg);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.course-thumbnail {
+    width: 280px;
+    height: 140px;
+    background-color: white;
+}
+
+.register-button {
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.register-button:hover {
+    background-color: #491b9e;
+}
+
+.register-button:active {
+    background-color: var(--secondary);
+}
