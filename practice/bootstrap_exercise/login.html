@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row background-img justify-content-center">
+            
+            <div class=" col-12 col-md-4 text-white d-flex align-items-center">
+                <h1 class="d-block d-md-none text-center w-100 welcome-text">The Home Depot</h1>
+            </div>
+            <div class="col-12 col-sm-8 offset-sm-1 col-md-6 col-lg-5 offset-lg-2 d-flex align-items-center border rounded bg-light text-center my-5">
+                
+                <div class="w-100">
+                    <h1 class="text-center mb-4">Login</h1>
+                    <form method="get" class="mx-4 w-75 w-lg-50 mx-auto needs-validation" novalidate>
+
+                        <div class="mb-3 to-validate">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <div class="invalid-feedback">Please enter a valid email address</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        
+                        
+                        <input type="submit" class="btn btn-primary mb-3" value="Login">
+                        
+                    </form>
+                    <p>Don't have an account? <a href="./register.html">Register</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/query.min.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+    <script src="validation.js"></script>
+</body>
+</html>
